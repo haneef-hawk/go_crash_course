@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	/* most of the main data types
 	1. string
@@ -13,4 +15,8 @@ func main() {
 	7. complex64 complex128
 	*/
 
+	// using var keyword to create a variable
+	var name string = "Mohamed"
+
+	fmt.Println(name)
 }
