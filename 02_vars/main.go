@@ -21,7 +21,8 @@ func main() {
 	// using constants using const keyword
 	const height = 186.3
 
-	fmt.Println("name: ", name, "\nage: ", age, "\nheight: ", height)
+	fmt.Println("name: ", name, "\nage: ", age)
+	fmt.Println("\nheight: ", height, " cm")
 	// %T is used to print the type of a variable
 	fmt.Printf("variable name is of %T type \n", name)
 	fmt.Printf("variable age is of %T type \n", age)
