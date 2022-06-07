@@ -18,9 +18,12 @@ func main() {
 	// using var keyword to create a variable
 	var name string = "Mohamed"
 	var age = 34
+	// using constants using const keyword
+	const height = 186.3
 
-	fmt.Println("name: ", name, "\nage: ", age)
+	fmt.Println("name: ", name, "\nage: ", age, "\nheight: ", height)
 	// %T is used to print the type of a variable
 	fmt.Printf("variable name is of %T type \n", name)
 	fmt.Printf("variable age is of %T type \n", age)
+	fmt.Printf("variable height is of %T type \n", height)
 }
