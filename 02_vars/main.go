@@ -17,6 +17,10 @@ func main() {
 
 	// using var keyword to create a variable
 	var name string = "Mohamed"
+	var age = 34
 
-	fmt.Println(name)
+	fmt.Println("name: ", name, "\nage: ", age)
+	// %T is used to print the type of a variable
+	fmt.Printf("variable name is of %T type \n", name)
+	fmt.Printf("variable age is of %T type \n", age)
 }
