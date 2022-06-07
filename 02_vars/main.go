@@ -22,14 +22,20 @@ func main() {
 	const height = 186.3
 	// using shorthand notation to create variables
 	sex := "male" // note: cannot used for global declerations
+	// assigning multiple varibales in same definition
+	phone, email := 178657587, "ceo@fermisoft.com"
 
 	fmt.Println("name: ", name, "\nage: ", age)
 	fmt.Println("height: ", height, " cm")
 	fmt.Println("sex: ", sex)
+	fmt.Println("phone: ", phone)
+	fmt.Println("email: ", email)
 
 	// %T is used to print the type of a variable
 	fmt.Printf("variable name is of %T type \n", name)
 	fmt.Printf("variable age is of %T type \n", age)
 	fmt.Printf("variable height is of %T type \n", height)
 	fmt.Printf("variable sex is of %T type \n", sex)
+	fmt.Printf("variable phone is of %T type \n", phone)
+	fmt.Printf("variable email is of %T type \n", email)
 }
