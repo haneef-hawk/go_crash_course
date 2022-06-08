@@ -1,4 +1,5 @@
 package main // contains main function
+
 import (
 	"fmt"
 	"math"
